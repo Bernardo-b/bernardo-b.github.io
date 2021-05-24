@@ -2241,7 +2241,7 @@ h4, .h4 {
 h5, .h5 {
   font-size: 1.57em;
   line-height: 1.4em;
-  margin-bottom: 15px; }
+  margin-bottom: 0px; }
 
 h6, .h6 {
   font-size: 1em;
@@ -2291,6 +2291,37 @@ p {
 
 .text-black {
   color: #444; }
+
+.course-title {
+    color: #378C3F;
+    font-size: 1em;
+    text-transform: uppercase; }
+
+.course-description {
+    color: #363636;
+    font-size: 1em; }
+
+.course-hours {
+  position: absolute;
+top: 2px;
+right: 0;
+color: #888;
+font-size: 1em;
+}
+.course-school {
+position: static;
+color: #363636;
+margin-bottom: : 20px;
+text-align: center;
+font-size: 2em;
+}
+
+.padd {
+  margin-bottom: 20px;
+  text-decoration: underline;
+}
+
+
 
 .blockquote {
   border-left: none;
@@ -3444,7 +3475,9 @@ Created using IcoMoon - icomoon.io
   margin-bottom: 20px;
   box-shadow: 0px 5px 25px 0px rgba(0, 0, 0, 0.2); }
   .card .card-body {
-    min-height: 190px; }
+    min-height: 80px;
+    text-align: center;
+  }
   .card[data-background-color="orange"] {
     background-color: #378C3F; }
   .card[data-background-color="red"] {
@@ -5216,7 +5249,7 @@ Created using IcoMoon - icomoon.io
   margin-bottom: 0; }
 
 .cc-education .cc-education-header {
-  padding-top: 60px;
+  padding-top: 20px;
   padding-right: 0;
   text-align: center;
   color: #fff; }
